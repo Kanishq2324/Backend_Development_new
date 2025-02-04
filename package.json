@@ -1,0 +1,15 @@
+{
+  "name": "backend_new",
+  "version": "1.0.0",
+  "description": "Hello this is first Step",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "backend"
+  ],
+  "author": "\"Kanishq\"",
+  "license": "ISC"
+}
