@@ -249,7 +249,7 @@ const refreshAccessToken = asyncHandler(async(req, res) => {
     
         const {accessToken, newRefreshToken} = await generateAccessTokenAndRefreshToken(user._id)
     
-        return res.statu(200)
+        return res.status(200)
         .cookie("accessToken", accessToken, options)
         .cookie("refreshToken", newRefreshToken, options)
         .json(
@@ -268,4 +268,5 @@ const refreshAccessToken = asyncHandler(async(req, res) => {
 
 
 
-export {registerUser, loginUser, logoutUser}
+
+export {registerUser, loginUser, logoutUser, refreshAccessToken}
